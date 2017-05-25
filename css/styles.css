@@ -1,0 +1,103 @@
+html{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background: url('../img/background.jpg') center center no-repeat fixed;
+  background-size: cover;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+form {
+  background-color: rgba(255, 255, 255, .7);
+  width: 550px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+fieldset {
+  width: 500px;
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #1e1e1e;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+  font-style: italic;
+  color: #d05e26;
+  padding: 0 10px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+}
+
+input, select, textarea, button {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input, select, textarea {
+  width: 300px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+input, select {
+  height: 30px;
+  font-style: italic;
+}
+
+input:focus, textarea:focus {
+  background-color: #df672b;
+  color: #fff;
+  font-style: normal;
+  outline: 2px solid #1e1e1e;
+}
+
+select:focus {
+  font-style: normal;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+button {
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #df672b;
+  color: white;
+  border: 0;
+  font-size: 18px;
+  letter-spacing: 0.09em;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #8e2800;
+}
